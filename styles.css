@@ -1,8 +1,44 @@
 body {
   background-color: rgb(205, 241, 184);
+  color: blueviolet;
+  padding: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
-  background-color: rgb(0, 0, 0);
-  color: crimson;
+  background-color: rgb(189, 152, 152);
+  color: rgb(108, 42, 161);
+  width: fit-content;
+  border-radius: 5%;
+  box-shadow: 100px;
+  padding: 10px;
+}
+
+h1 {
+  background-color: rgb(219, 108, 164);
+  width: fit-content;
+  border-radius: 5%;
+  box-decoration-break: slice;
+}
+
+hr {
+  color: #c42f2f;
+  line-height: 20px;
+  padding: 1px;
+  background-color: #7e6a6a;
+}
+
+img {
+  border-radius: 5%;
+  border-color: rgb(47, 173, 30);
+  border-style: dashed;
+  border-top-color: #c42f2f;
+  border-left-color: rgb(31, 136, 228);
+}
+
+.botones {
 }
