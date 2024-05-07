@@ -9,9 +9,9 @@
         <nav>
             <div>
     <h1> MI PERFIL</h1>
-    
 </div>
     </nav>
+    <img src="./logo.jpg" alt="logo" id="logo">
     </header>
 <hr>
 <main>
@@ -31,7 +31,9 @@
 <hr>
 <section>
 <div>
-    <p>Mi nombre es Gabriel, soy profesor de educacion fisica, tengo 38 años, y estoy en este curso porque me interesa todo lo que es programacion.</p>
+    <p>Mi nombre es Gabriel, soy profesor de educacion fisica, tengo 38 años, y estoy en este curso porque me interesa todo lo que es programacion.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eligendi dolor exercitationem sequi libero laudantium, pariatur facilis voluptate maxime mollitia, et numquam culpa debitis ea nesciunt, alias recusandae dolores aut?
+    </p>
 </div>
 <div></div>
 <h2><a href="./acercade.html" class="botones">Acerca de mi</a>
@@ -44,15 +46,15 @@
     <form class="container">
         <div>
             <label for="Nombre">Nombre:</label>
-            <input type="text" id="nombre" placeholder="juancito">
+            <input type="text" id="nombre" placeholder="juancito" required>
         </div>
         <div>
         <label for="Edad">Edad:</label>
-        <input type="number" id="Edad" placeholder="00" maxlength="99">
+        <input type="number" id="Edad" placeholder="00" maxlength="99" required>
         </div>
         <div>
             <label for="correo">Correo electronico:</label>
-            <input type="email" id="correo" placeholder="mail@mail.com">
+            <input type="email" id="correo" placeholder="mail@mail.com" required>
         </div>
         <div>
             <label for="direccion">Direccion</label>
@@ -72,9 +74,10 @@
             <div>
             <label for="prefiero no responder">prefiero no responder</label>
             <input type="radio" id="prefiero no responder"name="Sexo">
+            <!-- para que solo seleccionen uno debe tener name= el nombre del principal (ejemplo: sexo) -->
         </div>
         <div>
-        <input type="checkbox" id="checkbox">
+        <input type="checkbox" id="checkbox" required>
         <label for="checkbox">Terminos y condiciones <a href="./terminosycondiciones.html">Ver Terminos</a></label>
         </div>
         <div>

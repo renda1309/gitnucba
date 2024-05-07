@@ -6,7 +6,8 @@ body {
 
 #logo {
   border-radius: 20%;
-  float: inline-end;
+  display: inline-block;
+  float: right;
   padding-top: 0px;
 }
 
