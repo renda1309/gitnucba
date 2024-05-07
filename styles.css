@@ -4,12 +4,9 @@ body {
   padding: 20px;
 }
 
-nav {
-}
-
 #logo {
   border-radius: 20%;
-  float: right;
+  float: inline-end;
   padding-top: 0px;
 }
 
