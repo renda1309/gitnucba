@@ -20,19 +20,20 @@ p {
 
 h1 {
   background-color: rgb(219, 108, 164);
+  text-align: center;
   width: fit-content;
   border-radius: 5%;
   font-family: "Courier New", Courier, monospace;
   padding: 5px;
-  text-align: center;
 }
 
 h2 {
   background-color: mediumaquamarine;
-  width: fit-content;
-  padding: 3px;
+
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  width: fit-content;
 }
 
 h3 {
@@ -56,5 +57,5 @@ img {
 }
 
 footer {
-  background-color: #7c7070;
+  text-align: center;
 }
