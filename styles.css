@@ -4,8 +4,13 @@ body {
   padding: 20px;
 }
 
+nav {
+}
+
 #logo {
-  border-radius: 10%;
+  border-radius: 20%;
+  float: right;
+  padding-top: 0px;
 }
 
 p {
