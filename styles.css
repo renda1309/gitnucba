@@ -4,6 +4,10 @@ body {
   padding: 20px;
 }
 
+#logo {
+  border-radius: 10%;
+}
+
 p {
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -29,7 +33,6 @@ h1 {
 
 h2 {
   background-color: mediumaquamarine;
-
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
@@ -48,7 +51,7 @@ hr {
   background-color: #7e6a6a;
 }
 
-img {
+#foto_principal {
   border-radius: 5%;
   border-color: rgb(47, 173, 30);
   border-style: dashed;
