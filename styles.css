@@ -22,7 +22,22 @@ h1 {
   background-color: rgb(219, 108, 164);
   width: fit-content;
   border-radius: 5%;
-  box-decoration-break: slice;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+  text-align: center;
+}
+
+h2 {
+  background-color: mediumaquamarine;
+  width: fit-content;
+  padding: 3px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color: #c42f2f;
+  padding-left: 100px;
 }
 
 hr {
@@ -37,8 +52,9 @@ img {
   border-color: rgb(47, 173, 30);
   border-style: dashed;
   border-top-color: #c42f2f;
-  border-left-color: rgb(31, 136, 228);
+  border-left-color: hsl(208, 78%, 51%);
 }
 
-.botones {
+footer {
+  background-color: #7c7070;
 }
