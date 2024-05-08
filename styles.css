@@ -68,3 +68,7 @@ hr {
 footer {
   text-align: center;
 }
+
+.barra_navegacion {
+  background-color: rgb(189, 152, 152);
+}
