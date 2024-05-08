@@ -9,9 +9,16 @@
         <nav>
             <div>
     <h1> MI PERFIL</h1>
+
 </div>
     </nav>
+    <div>
+    <label for="Buscar">Buscar</label>
+    <input type="search" id="Buscar" placeholder="Buscar">
+</div>
+<div>
     <img src="./logo.jpg" alt="logo" id="logo">
+</div>
     </header>
 <hr>
 <main>
@@ -50,7 +57,7 @@
         </div>
         <div>
         <label for="Edad">Edad:</label>
-        <input type="number" id="Edad" placeholder="00" maxlength="99" required>
+        <input type="number" id="Edad" placeholder="18" max="99" min="18" required>
         </div>
         <div>
             <label for="correo">Correo electronico:</label>
@@ -79,6 +86,10 @@
         <div>
         <input type="checkbox" id="checkbox" required>
         <label for="checkbox">Terminos y condiciones <a href="./terminosycondiciones.html">Ver Terminos</a></label>
+        </div>
+        <div>
+            <label for="Archivo">Agregar Archivo</label>
+            <input type="file" id="Archivo" required>
         </div>
         <div>
             <input type="submit">
