@@ -1,6 +1,6 @@
 body {
   background-color: #eeb7bb;
-  color: blueviolet;
+  color: #3710e6;
   padding: 20px;
 }
 
@@ -21,7 +21,7 @@ p {
 
 .container {
   background-color: rgb(189, 152, 152);
-  color: rgb(108, 42, 161);
+  color: #3710e6;
   width: fit-content;
   border-radius: 5%;
   box-shadow: 100px;
@@ -29,7 +29,7 @@ p {
 }
 
 h1 {
-  background-color: rgb(219, 108, 164);
+  background-color: #97c29d;
   text-align: center;
   width: fit-content;
   border-radius: 5%;
@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-  background-color: mediumaquamarine;
+  background-color: #97c29d;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
@@ -60,7 +60,7 @@ hr {
 #foto_principal {
   border-radius: 5%;
   border-color: rgb(47, 173, 30);
-  border-style: dashed;
+  border-style: ridge;
   border-top-color: #c42f2f;
   border-left-color: hsl(208, 78%, 51%);
 }
