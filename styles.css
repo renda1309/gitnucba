@@ -20,7 +20,7 @@ p {
 }
 
 .container {
-  background-color: rgb(189, 152, 152);
+  background-color: #bd9898;
   color: #3710e6;
   width: fit-content;
   border-radius: 5%;
@@ -70,5 +70,6 @@ footer {
 }
 
 .barra_navegacion {
-  background-color: rgb(189, 152, 152);
+  text-align: center;
+  background-color: #bd9898;
 }
