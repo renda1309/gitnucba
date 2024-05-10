@@ -18,6 +18,9 @@ header {
 p {
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: line-through;
+  text-decoration-color: #97c29d;
+  text-decoration-thickness: 2px;
 }
 
 .container {
@@ -54,7 +57,7 @@ h3 {
 hr {
   color: #c42f2f;
   line-height: 20px;
-  padding: 1px;
+  padding-left: 30px;
   background-color: #7e6a6a;
 }
 
