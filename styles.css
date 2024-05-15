@@ -22,11 +22,11 @@ p {
   text-decoration: line-through;
   text-decoration-color: #97c29d;
   text-decoration-thickness: 2px;
+  letter-spacing: 5px;
 }
 
 .container {
   background-color: #bd9898;
-  color: #3710e6;
   width: fit-content;
   border-radius: 5%;
   padding: 10px;
@@ -36,7 +36,7 @@ h1 {
   background-color: #97c29d;
   text-align: center;
   width: fit-content;
-  border-radius: 5%;
+  border-radius: 10%;
   font-family: "Courier New", Courier, monospace;
   padding: 5px;
 }
@@ -56,12 +56,11 @@ h3 {
 
 hr {
   color: #1acc09;
-  line-height: 50px;
   padding: 1px;
   background-color: #850101;
   border-width: 3px;
   border-color: #1acc09;
-  visibility: hidden;
+  width: 50%;
 }
 
 #foto_principal {
@@ -96,4 +95,9 @@ footer {
   background-image: url("https://images.unsplash.com/photo-1459865264687-595d652de67e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center;
   background-attachment: fixed;
+}
+
+.descripcion {
+  background-image: url("https://images.unsplash.com/photo-1527871369852-eb58cb2b54e2?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
 }
