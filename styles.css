@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap");
 body {
   background-color: #eeb7bb;
   color: #3710e6;
@@ -60,6 +61,7 @@ hr {
   background-color: #850101;
   border-width: 3px;
   border-color: #1acc09;
+  visibility: hidden;
 }
 
 #foto_principal {
@@ -68,6 +70,7 @@ hr {
   border-style: ridge;
   border-top-color: #c42f2f;
   border-left-color: hsl(208, 78%, 51%);
+  box-shadow: 10px 10px 30px 10px #748cb8;
 }
 
 footer {
@@ -77,4 +80,20 @@ footer {
 .barra_navegacion {
   background-color: #bd9898;
   display: flex;
+}
+
+#parrafo-inferior {
+  color: #1acc09;
+  text-decoration: underline;
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 3px;
+  word-spacing: 30px;
+}
+
+.formulario {
+  background-image: url("https://images.unsplash.com/photo-1459865264687-595d652de67e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-attachment: fixed;
 }
